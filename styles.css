@@ -895,3 +895,11 @@ html, body {
 .floating-card {
   will-change: transform;
 }
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
