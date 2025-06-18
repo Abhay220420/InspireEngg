@@ -23,6 +23,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Global cursor style */
+body, * {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32"><circle cx="8" cy="8" r="6" fill="orange"/></svg>') 4 4, auto;
+}
+
 
 body {
   font-family: 'Inter', sans-serif;
@@ -150,6 +155,7 @@ html, body {
   min-height: 100vh;
   overflow: hidden;
   background: var(--gradient-light);
+  padding-top:1rem;
 }
 
 .hero-bg-layer {
