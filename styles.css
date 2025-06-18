@@ -196,11 +196,12 @@ html, body {
 
 .particle {
   position: absolute;
-  width: 6px;
-  height: 6px;
-  background: var(--gradient-primary);
+  width: 100px; /* Increased size */
+  height: 100px;
+  background: rgba(221, 25, 25, 0.1); /* Very light orange */
   border-radius: 50%;
   animation: float 6s ease-in-out infinite;
+  box-shadow: 0 0 8px rgba(255, 107, 53, 0.05); /* Soft glow */
 }
 
 .particle:nth-child(1) { top: 12%; left: 42%; animation-delay: 0s; }   /* over "India's" */
