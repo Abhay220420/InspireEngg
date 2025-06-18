@@ -153,6 +153,8 @@ html, body {
   overflow: hidden;
   background: var(--gradient-light);
   padding-top:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .hero-bg-layer {
