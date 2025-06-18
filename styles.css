@@ -203,10 +203,14 @@ html, body {
   animation: float 6s ease-in-out infinite;
 }
 
-.particle:nth-child(1) { top: 20%; left: 20%; animation-delay: 0s; }
-.particle:nth-child(2) { top: 60%; left: 80%; animation-delay: 2s; }
-.particle:nth-child(3) { top: 80%; left: 40%; animation-delay: 4s; }
-.particle:nth-child(4) { top: 40%; left: 70%; animation-delay: 1s; }
+.particle:nth-child(1) { top: 12%; left: 42%; animation-delay: 0s; }   /* over "India's" */
+.particle:nth-child(2) { top: 8%; left: 88%; animation-delay: 1s; }    /* top right near "Precision Installation" */
+
+.particle:nth-child(3) { top: 55%; left: 82%; animation-delay: 3s; }   /* below "Civil Engineering" */
+.particle:nth-child(4) { top: 70%; left: 65%; animation-delay: 0.5s; } /* bottom right */
+.particle:nth-child(5) { top: 62%; left: 25%; animation-delay: 1.5s; } /* under 17+ years */
+.particle:nth-child(6) { top: 41%; left: 15%; animation-delay: 2.5s; } 
+.particle:nth-child(7) { top: 21%; left: 58%; animation-delay: 3.5s; }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.7; }
