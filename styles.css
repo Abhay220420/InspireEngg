@@ -835,3 +835,12 @@ body {
   background-color: #ff6f3c;
   border-radius: 2px;
 }
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-top: 0;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0 0.4rem;
+  }
+}
